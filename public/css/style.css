@@ -1,8 +1,34 @@
 .carousel-item img{
-    height: 90vh;
-    
+    /* height: 90vh; */
+    /* margin-top: -300px; */
+    background-size: cover;
 }
 
+@media (min-width: 992px) { 
+    .carousel-item img{ 
+    margin-top: -300px;
+    
+   }
+}
+
+ 
 .navbarFooter{
     z-index: 1;
 }
+
+.team{
+    /* background-image: url('/public/images/team.jpg'); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .navbar-nav li a{
+    margin-left: 20px;
+} */
+
+/* start home */
+.containerVersus{
+    background-color: #DA0037;
+    padding: 2.5rem;
+}
+/* end home */
