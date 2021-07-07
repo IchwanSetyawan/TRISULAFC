@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,11 @@ Route::view('/', 'welcome');
 
 // Route::get('/contact', function(){
 //     return 'Contact';
+// });
+
+// Route::view('contact', 'contact'); tukar sama yang di bawah buat active link
+// Route::get('contact', function(Request $request){
+
 // });
 
 Route::view('contact', 'contact');

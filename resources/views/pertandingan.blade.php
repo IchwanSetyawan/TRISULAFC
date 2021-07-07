@@ -2,6 +2,22 @@
 
 @section('title','Pertandingan')
 
+@section('head')
+    <style>
+        body{
+            margin-top: 5em;
+        }
+
+        @media (min-width: 992px) {     
+               body{
+                   margin-top: 6em;
+                   color: blue;
+               } 
+            }
+        }
+    </style>
+@endsection
+
 @section('content')
 
     <div class="container mt-3">
