@@ -32,3 +32,5 @@ Route::view('about', 'about');
 Route::view('pertandingan','pertandingan');
 
 Route::view('galeri','galeri');
+
+Route::view('berita', 'berita');

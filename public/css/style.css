@@ -6,7 +6,7 @@
 
 @media (min-width: 992px) { 
     .carousel-item img{ 
-    margin-top: -300px;
+    margin-top: -320px;
     
    }
 }
@@ -32,3 +32,12 @@
     padding: 2.5rem;
 }
 /* end home */
+
+/* start services */
+.berita{
+    background-color: #DA0037  ;
+    /* color: #eaeaea; */
+}
+.berita h1{
+    color: #eaeaea;
+}

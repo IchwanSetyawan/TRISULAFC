@@ -1,7 +1,7 @@
 
 <header>
-  <nav class="navbar navbar-expand-md navbar-dark shadow-lg  navbarHeader " style="background-color: #DA0037 ">
-    <div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-lg  navbarHeader " style="background-color: #DA0037 ">
+    <div class="container-fluid">
       <a class="navbar-brand fs-4" href="/"><b>TRISULA FC</b></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -13,6 +13,9 @@
           </li>
           <li class="nav-item p-3">
             <a class="nav-link" href="/pertandingan">Pertandingan</a>
+          </li>
+          <li class="nav-item p-3">
+            <a class="nav-link" href="/berita">Berita</a>
           </li>        
           <li class="nav-item p-3">
             <a class="nav-link" href="/galeri">Galeri</a>

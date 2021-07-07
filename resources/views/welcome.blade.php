@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title','Home')
+
 @section('content')
 
 {{-- start carraousel --}}
@@ -47,64 +49,78 @@
 {{-- end carraousel --}}
 
 {{--start  pertandingan berikutnya --}}
-    {{-- <section>
-        <div class="row">
-            <div class="col-md-12 mx-auto">
-                <h1>Next Match</h1>
-                <br>
-                <h1>Trisula FC VS Persib Bandung</h1>
-                <br>   
-            </div>
-        </div>
-        <div class="row justify-content-lg-center">
-            <div class="col col-md-3 ">
-                <img src="images/versus.jpg" class="img-fluid rounded" alt="image versus">                
-            </div>
-            <div class="col-sm-auto ">
-                <span>VS</span>
-            </div>
-            <div class="col col-md-3">
-                <img src="images/versus.jpg" class="img-fluid rounded" alt="image versus">                
-            </div>
-        </div>
-    </section> --}}
+    
+      
 <div class="container mt-5 mb-5 text-center" style="color: white">
     <div class="row justify-content-md-center m-2">
         <h3 style="color: black">Pertandingan Berikutnya</h3>
     </div>
-    <div class="row justify-content-md-center containerVersus rounded">
-        <div class="col col-lg-3">
+    <div class="row justify-content-sm-center containerVersus rounded">
+        <div class="col col-md-3 col-sm-4">
            <img src="images/trisula.png" class="img-fluid rounded mb-1" alt="image versus">                
            <h5>TRISULA FC</h5>
         </div>
-        <div class="col-md-auto align-self-center p-5">
+        <div class="col-md-auto align-self-center p-5 col-sm-4">
          <h1>VS</h1>
         </div>
-        <div class="col col-lg-3">
+        <div class="col col-md-3 col-sm-4">
               <img src="images/maduraUnited.jpg" class="img-fluid rounded mb-1" alt="image versus">                
               <h5>Madura United</h5>
         </div>
-  </div>
+        <div class="row justify-content-md-center m-2">
+            <h4 style="color: orange">Kamis, 18 Juli 2021 <br> Kick off pukul 19:00 WIB <br>live on RCTI</h4>
+            <br>
+            <h6 style="color: black">Stadion Maguwohargo Bantul</h6>
+        </div>
+    </div>
 </div>
 {{-- end pertandingan berikutnya --}}
 
-
-{{-- start team --}}
-{{-- <section>
-    <div class="container-fluid">
+<section>
+    <div class="berita">
+      <div class="container">
         <div class="row">
-            <div class="col-md-12 mt-5 mb-5 text-center">
-                <h3>Tim Utama</h3>
-            </div>            
-        </div>        
-
-        <div class="row">
-            <div class="col-md-12 team mx-auto">
-                <img src="images/team.jpg" class="d-block w-800" alt="imageTim">
+          <div class="col-md-12 text-center py-5">
+            <h1>Berita Unggulan</h1>
             </div>
+          </div>
+        <div class="row ">
+          <div class="col-sm-6 my-3">
+            <div class="card" >
+                <img src="images/berita.jpg" class="card-img-top" alt="berita">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+             </div>
+          </div>
+          <div class="col-sm-6 my-3">
+            <div class="card" >
+                <img src="images/berita3.jpg" class="card-img-top" alt="berita3">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+             </div>
+          </div>
+          
+          <div class="col-sm-6 my-2">
+           <div class="card" >
+                <img src="images/berita2.jpg" class="card-img-top" alt="berita2">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+             </div>
+          </div>
+          </div>
         </div>
+        
+      </div>
     </div>
-</section> --}}
-{{-- end team --}}
+</section>
 
 @endsection

@@ -1,9 +1,7 @@
 @extends('layouts.app')
 
-@section('title','Contact')
+@section('title','Berita')
 
 @section('content')
-
-    contact 
-
+    Konten berita ada disini
 @endsection
